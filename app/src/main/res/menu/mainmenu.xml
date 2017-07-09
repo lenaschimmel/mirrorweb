@@ -1,0 +1,13 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_nav_back"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_back"
+        android:title="@string/action_nav_back"
+        android:visible="true"
+        app:showAsAction="always"/>
+
+</menu>
